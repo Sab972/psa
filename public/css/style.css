@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+      background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+      color: black;
+      width: 100%;
+      height: 130px;
+    }
+    
+    footer {
+      background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+      color: black;
+      width: 100%;
+      height: 100px;
+    }
+  
+    body{
+      background-color:white;
+    }
+
+    a{
+      color:black;
+      text-decoration: none;
+    }
+   /* #container{
+  
+      display: flex;
+      justify-content: center;
+      margin-bottom: 150px;
+      margin-top: 50px;
+      margin-right: 50px;*/
+      
+     
+    
+    .logo{
+      width: 120px;
+      height: 110px;
+      margin-top: 15px;
+      margin-left: 100px;
+    }
+  
+    img{
+      width: 140px;
+      height: 130px;
+      border-radius: 20px;
+      margin-left: 20px;
+      justify-content: center;
+      
+    }
+  .inscription{
+       margin-left: 40px;
+       
+
+       
+  }
+  .connexion{
+    margin-left: 400px;
+  
+  
+  }
+  .accueil{
+    margin-left: 20px;
+    
+  }
+  
+  h1{
+    margin-left: 300px;
+    align-items: center;
+    font-family: 'Allan', cursive;
+    font-size:600%;
+    padding-top: 25px;
+    color: black;
+  
+  }
+  
+  
+  h2{
+    margin-top: 40px;
+    margin-left: 500px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+    font-size:xx-large
+  }
+  .titrecat{
+    margin-top: 40px;
+    margin-left: 600px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+    font-size:xx-large
+  }
+
+  .apropos{
+    margin-left: 200px;
+    
+  }
+  .pos{
+   
+  margin-left: 100px;
+  }
+  .logo1{
+    margin-left: 180px;
+    width: 100px;
+    height: 90px;
+  }
+  .confi{
+    margin-left: 30px;
+    
+  }
+  #head {
+    
+    display: flex;
+    align-items: center;
+   
+  }
+  #footer{
+    display: flex;
+    align-items: center
+  }
+
+  #dessinpop img{
+    border-radius: 0;
+    margin-top: 40px;
+    width: 300px;
+    height: 272px;
+    margin-left: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   
+  }
+ 
+  #dessinrecent img{
+    border-radius: 0;
+    margin-top: 40px;
+    width: 300px;
+    height: 272px;
+    margin-left: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: 20px;
+  }
+  a{
+    
+    font-family: 'ABeeZee', sans-serif;
+  }
+
+  .fb {
+    width: 40px;
+    height: 40px;
+  }
+  .insta{
+    width: 40px;
+    height: 40px;
+  }
+  .twitter{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .reseau{
+    margin-left: 150px;
+    display: flex;
+  }
+  .recherche{
+    margin-left: 100px;
+    height: 30px;
+    border-radius: 10px;
+    width: 400px;
+    
+   
+  }
+  .submit{
+    
+    height: 30px;
+    border-radius: 10px;
+    background-color: #d9cee8;
+    border: 2px double #f3f3f3;
+    color: #0d0c0c;
+    text-align: center;
+    cursor: pointer;}
+    
+  
+  .text1{
+    width: 700px;
+    text-align: center;
+    text-align: justify;
+    margin-left:470px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    color: white;
+    font-family:'ABeeZee', sans-serif;
+    font-size: x-large;
+
+  }
+ 
+ #form{
+  display: flex;
+ }
+ .submit{
+  margin-left: 10px;
+  color: rgb(14, 134, 64);
+  font-size:small;
+  
+ }
+ nav{
+  display: flex;}
+
+
+
+.inputform{
+  padding-top: 10px;
+  margin-top: 70px;
+  border-radius: 5px;
+  border:2px solid #0d0c0c;
+  margin-left: 90px;
+  padding:10px; border:1px solid black; 
+  width: 320px;
+  
+}
+
+.inputbutton{
+  margin-top: 40px;
+  margin-left: 200px;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #f3f3f3;
+  color: #181616;
+  font-size :18px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;}
+
+ 
+.inputbutton:hover{
+  background-color:rgb(223, 109, 187);
+}
+ .parallaxtext{
+  width: 700px;
+    text-align: center;
+    text-align: justify;
+    margin-left:330px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: white;
+    font-family:'ABeeZee', sans-serif;
+    font-size: x-large;
+  color: #f3f3f3;
+ } 
+.first{
+  
+  height:100vh;
+  background: no-repeat  url("../img/decor.jpg")  ;
+  background-blend-mode: multiply;
+}
+
+section {
+
+  padding : 5em;
+}
+
+
+
+#formlogin{
+
+  margin-left:500px;
+  /*background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%); */
+  background-color: white;
+  width: 500px;
+  height: 570px;
+  border-radius: 10px;
+  border: 4px double #7b16be;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  box-shadow: 2px 2px 5px #111010;
+} 
+  
+
+.imglogin{
+ 
+  width: 500px;
+}
+
+
+#formregister{
+  margin-left:500px;
+  background-color: white; 
+  height: 570px;
+  width: 500px;
+  border-radius: 10px;
+  border: 4px double #7b16be;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  box-shadow: 2px 2px 5px #181717;
+}
+.inputformregister{
+  padding-top: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 320px;
+  margin-left: 80px;
+  width: 320px;
+  padding:10px; border:1px solid black; 
+}
+.inputformbuttonregister{
+  margin-top: 30px;
+  margin-left: 200px;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #f3f3f3;
+  color: #eeeeee;
+  font-size :18px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.user{
+  margin-left: 500px;
+  margin-top: 70px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.co{
+  margin-left: 190px;
+}
+.ins{
+  margin-left: 180px;
+}
+.deco{
+  margin-left: 100px;
+}
+.iconeuser{
+  margin-left: 100px;
+}
+.infosuser{
+  display: flex;
+  margin-left: 50px;}
+
+.ajoutercat{
+margin-left: 40px;
+}
+
+.apro{
+ margin-left:900px;
+font-size: x-large;
+font-family:'ABeeZee', sans-serif;
+ 
+}
+
+.imgcategories{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.nomcategorie{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  font-size:small;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.imgpublication{
+  
+  border-radius: 0;
+  margin-top: 40px;
+  width: 300px;
+  height: 270px;
+  margin-left: 60px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-bottom: 20px;
+}
+.titrepublication{
+ 
+  font-size:large;
+  margin-left: 100px;
+  
+}
+
+
+#categories{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.category{
+  display:flex;
+  margin-left: 250px;
+}
+.parallax {
+  /* The image used */
+  background: url("../img/parallax.jpg") rgb(255, 144, 238) ;
+  background-blend-mode: multiply;
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titrepublicat{
+  margin-left: 470px;
+  color: #470375;
+  padding-bottom: 50px;
+}
+.titrepubcat{
+  margin-top: 50px;
+  margin-left: 180px;
+  font-family: 'ABeeZee', sans-serif;
+  
+}
+.pseudocat{
+  font-family:'Allan', cursive;
+ margin-left: 180px;
+  
+ 
+}
+
+.modification{
+  display:block;
+ 
+}
+
+#containerbis{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  }
+  .galerieandapropos {
+    display: flex;
+    color: #1f1a20;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: x-large;
+   
+  }
+  .galerie{
+    margin-left: 200px;
+   font-family: 'ABeeZee', sans-serif;
+  }
+  .apropos{
+    margin-left: 200px;
+   
+  }
+  .pseudo{
+    font-family:'Allan', cursive;
+    font-size:x-large;
+    margin-left: 100px;
+  }
+  #contenuform{
+    height: 570px;
+    width: 500px;
+    border-radius: 10px;
+    border: 4px double #7b16be;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    box-shadow: 2px 2px 5px #181717;
+    
+    margin-left: 500px;
+  }
+  .titreform{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: large;
+    margin-top: 20px;
+  }
+.input{
+  padding-top: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 320px;
+  margin-left: 80px;
+  width: 320px;
+  padding:10px; border:1px solid black; 
+}
+.lien{
+  margin-left: 60px;
+}
+.localisation{
+  margin-left: 500px;
+  margin-top: 70px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nbabo{
+  margin-left: 500px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-top: 80px;
+ margin-bottom: 80px;}
+
+ .h1profil{
+  margin-left: 600px;
+ }
+ #formaddcat{
+  height: 370px;
+  width: 500px;
+  border-radius: 10px;
+  border: 4px double #7b16be;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  box-shadow: 2px 2px 5px #181717;
+  margin-left: 500px;
+ }
+ .inputaddcat{
+  padding-top: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 120px;
+  margin-left: 180px;
+
+  padding:10px; border:1px solid black; 
+  /* Created with https://www.css-gradient.com */
+background: #3ECC98;
+background: -webkit-linear-gradient(top left, #3ECC98, #94F7BE);
+background: -moz-linear-gradient(top left, #3ECC98, #94F7BE);
+background: linear-gradient(to bottom right, #3ECC98, #94F7BE);
+ }
+ .titreformcat{
+  margin-left: 210px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 150px;
+  font-size: large;
+  
+ }
+ .formeditcat{
+  height: 270px;
+  width: 250px;
+  border-radius: 10px;
+  border: 4px double #7b16be;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  box-shadow: 2px 2px 5px #181717;
+  margin-left: 600px;
+ }
+ .inputeditpub{
+  padding-top: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 120px;
+  margin-left: 60px;
+
+  padding:10px; border:1px solid black; 
+  /* Created with https://www.css-gradient.com */
+background: #3ECC98;
+background: -webkit-linear-gradient(top left, #3ECC98, #94F7BE);
+background: -moz-linear-gradient(top left, #3ECC98, #94F7BE);
+background: linear-gradient(to bottom right, #3ECC98, #94F7BE);
+ }
+ .titreforpub{
+  
+    padding-top: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 160px;
+    margin-left: 40px;
+    padding: 10px;
+    border: 1px solid black;
+ }
+ .titremodifpub{
+  margin-top: 40px;
+  margin-left: 600px;
+  padding-top: 30px;
+  color: black;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: xx-large;
+ }
+ .inputaddcat{
+  margin-left: 180px;
+  margin-top: 100px;
+ }
+ /*.pseudoprofil{
+  /*background:url("../img/cupoi-poi-2.jpg");
+  height:50vh;
+  background-blend-mode: multiply;*/
+ 
+ .lienmodifcat{
+  margin-left: 200px;
+ 
+  
+ }
+ .nouveau{
+  margin-left: 60px; 
+  width: 300px;
+ }
+ .posti{
+margin-left: 20px;
+width: 80px;
+height: 20px;
+top: -10px;
+position: relative;
+background-color: #3ECC98;
+border-radius: 10px;
+ }
+ .modifier{
+  margin-left: 80px;
+ }
+ .supprimer{
+  margin-left: 80px;
+ }
+ .lienajoupub{
+  margin-left: 500px;
+
+ 
+ }
+ .commentaire{
+  border: 1px solid black;
+  width: 500px;
+  height: 80px;
+  margin-left: 800px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #f4f2f5ee;
+  
+ }
+ .text{
+  margin-left: 50px;
+  margin-top: 20px;
+ }
+ .nom{
+  margin-left: 850px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:large;
+  margin-top: 50px;
+  margin-bottom: 20px;
+ }
+.facebook{
+  margin-left: 20px;
+}
+.insta{
+  margin-left: 20px;
+}
+
+
