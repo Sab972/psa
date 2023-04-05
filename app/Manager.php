@@ -50,7 +50,7 @@
             //$values = ['Squalli', 'dfsyfshfbzeifbqefbq', 'sql@gmail.com']
             $values = array_values($data);
             //"username,password,email"
-            $sql = "INSERT INTO ".$this->tableName."
+            $sql = "INSERT INTO `".$this->tableName."`
                     (".implode(',', $keys).") 
                     VALUES
                     ('".implode("','",$values)."')";
